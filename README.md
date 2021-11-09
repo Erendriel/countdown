@@ -1,19 +1,42 @@
 # Countdown
 
 ## Improved countdown
+
 The below component was designed to count down the days until our CTO's birthday, but it still needs some work. How can you make the implementation better?
+
+## Improvements made:
+
+- First I started making a new component called CountdownHooks, this because hooks are the most new feature for React, giving us more efficiency by coding. These make code even more readable.
+- Then installed Material UI to add new feature what I called "TipsList" only for UX purpose.
+- Also added cdn Material Design to show the Date icon.
+- I made the Countdown functionality, improving the old one by using hooks such as setInterval, useRef, useEffect and useState.
+- Last but not least, FIREWORKS!!. These would show up when countdown runs out.
 
 **Do a critique:** The current implementation isn't perfect. How could it be improved?
 
+- The first thing I saw was the lack of hooks. So I did my own Component to use them.
+- Other thing that I would change would be allowing the component to take in the person's actual birthday with the year they were born. Calculate remaining time left from current year by determining negative values. If the Birthday has passed, then set the Birthday countdown for next year.
+
 * Pick an area of improvement to implement.
 * What would happen to the current code if the date were changed, the page layout was changed or the format was changed?
+
+- Actually, the date was wrong, and the flow of data makes the child component getting NaN instead of the real number, first thing to do was changing the format, then adding curly braces to grap this and the issue was resolved.
+
 * Does the current implementation follow best practices for HTML, CSS, JS and React?
+
+- Well, there was some small things, like a "," in App.js after Countdown component that shouldn't be there.
+  CSS was doing kind of nothing, just the header was modified. So I had to clear the App.css and made my own styles. Adding these into the style folder.
 
 **Spice it up:** Let's be honest, this countdown could be a whole lot more exciting.
 
-* What could you do to create a greater sense of urgency?
-* How would you make this countdown more aesthetically pleasing?
-* Trust your design instincts, and explain how your design choices impact the user experience
+- What could you do to create a greater sense of urgency?
+- How would you make this countdown more aesthetically pleasing?
+
+* I Added a background image, and a functionallity that if the time runs out a fireworks would show, also added a slider with tips that what you could do for a party
+
+- Trust your design instincts, and explain how your design choices impact the user experience
+
+* The design I made is to make it friendlier, a little bit more colorfull
 
 ## Getting Started with Create React App
 
