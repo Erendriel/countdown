@@ -14,7 +14,7 @@ function App() {
       </header>
       <div className="content">
         {/* <Countdown date='2020-12-24T00:00:00' /> */}
-        <CountdownHooks setEndCountdown={setEndCountdown} date={'Nov 8, 2021 23:29:00'} />
+        <CountdownHooks setEndCountdown={setEndCountdown} date={'Nov 8, 2022 23:32:00'} />
         {/* Adding some Fireworks to celebrate your Birthday */}
         {endCountdown ? <Fireworks3 /> : null}
       </div>

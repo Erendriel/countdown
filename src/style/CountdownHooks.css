@@ -10,7 +10,7 @@
 }
 
 .timer div:last-child {
-  border: 1px solid #5be7e5;
+  border: 1px solid #4a3fb3;
   border-radius: 0;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -21,7 +21,7 @@
   justify-items: center;
   margin-left: auto;
   margin-right: auto;
-  color: #5be7e5;
+  color: #4a3fb3;
 }
 
 section p:first-child,
